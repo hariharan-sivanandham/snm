@@ -1,0 +1,5 @@
+pwd		- present working directory
+ls		- list of files
+(ls -l)	- list of files detialed
+cd		- change documantary
+mkdir	- make directory
