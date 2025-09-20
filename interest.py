@@ -1,2 +1,2 @@
 print("Hari");
-print ("Vaithy");
+
