@@ -1,0 +1,2 @@
+print("Hari");
+print ("Vaithy");
