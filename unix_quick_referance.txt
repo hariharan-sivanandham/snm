@@ -6,3 +6,4 @@ mkdir	- make directory
 rm filename.py - remove file
 touch filename.py - create a file
 cat filename  - to read the directory
+cd ..- to go back
