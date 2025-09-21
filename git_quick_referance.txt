@@ -9,5 +9,5 @@ git remote add origin https:code address - set name of link
 git remote -v - check
 git push origin master - push the repo
 git config user.name "Hariharan Sivanandham"
-git config user.email^CHariharan Sivanandham"
+git config user.email "Hariharan Sivanandham"
 git pull origin master - to take the repo
