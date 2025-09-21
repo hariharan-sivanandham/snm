@@ -1,6 +1,8 @@
 pwd		- present working directory
 ls		- list of files
 (ls -l)	- list of files detialed
-cd		- change directory
-cd .. - go one directory back
+cd		- change documantary
 mkdir	- make directory
+rm filename.py - remove file
+touch filename.py - create a file
+cat filename  - to read the directory
