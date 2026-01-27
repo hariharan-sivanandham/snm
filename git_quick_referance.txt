@@ -1,0 +1,13 @@
+git init	- initialize a repository
+git status  - to check the status
+git add filename.py - track commited file
+git commit -m "message" - to commit a file with changes
+git log --oneline - history of commit
+git restore filename.py - to restore file
+git remote add https:code address - link local repo to remote
+git remote add origin https:code address - set name of link
+git remote -v - check
+git push origin master - push the repo
+git config user.name "Hariharan Sivanandham"
+git config user.email "calltohariharan@gmail.com"
+git pull origin master - to take the repo
