@@ -2,9 +2,9 @@ import pandas as pd
 
 data = {
     "Name": ["Hari", "Priya", "Kumar"],
-    "Math": [80, 96, 98],
-    "Science": [76, 98, 80],
-    "English": [98, 88, 87]
+    "Math": [80, 30, 98],
+    "Science": [76,35, 80],
+    "English": [98, 39, 87]
 }
 
 df = pd.DataFrame(data)
@@ -12,12 +12,12 @@ df = pd.DataFrame(data)
 df["Total"] = df["Math"] + df["Science"] + df["English"]
 df["Percentage"] = df["Total"] / 3
 
-def grade(p):
-    if p >= 80:
+def grade(Percentage):
+    if Percentage >= 80:
         return "A"
-    elif p >= 60:
+    elif Percentage >= 60:
         return "B"
-    elif p >= 40:
+    elif Percentage >= 40:
         return "C"
     else:
         return "Fail"
